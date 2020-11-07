@@ -1,6 +1,6 @@
 import {getFullJwt} from "./jwtUtil";
 
-export const APP_URL = 'http://localhost:8080'
+export const APP_URL = 'http://localhost:5555'
 export const APP_API_URL = APP_URL + '/api'
 export const APP_AUTH_API_URL = APP_API_URL + '/auth/rest/v1'
 export const APP_FINDER_API_URL = APP_API_URL + '/finder/rest/v1'

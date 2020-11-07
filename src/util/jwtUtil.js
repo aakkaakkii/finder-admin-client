@@ -17,7 +17,11 @@ export const getJwt = () => {
 }
 
 export const getFullJwt = () => {
-    return 'Bearer_' + getJwt();
+    let jwt = getJwt();
+    if(jwt) {
+        return 'Bearer_' + getJwt();
+    }
+    return "";
 }
 
 export const getUsername = () => {
