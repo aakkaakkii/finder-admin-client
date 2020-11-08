@@ -10,7 +10,7 @@ const Header = () => {
             <Toolbar>
                 <Typography>
                     <Link to="/">HOME</Link>
-                    <Link to="/usermanagement">usermanagement</Link>
+                    <Link to="/usermanagement">user management</Link>
                     <Link to="/login">Login</Link>
                 </Typography>
             </Toolbar>
